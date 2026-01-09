@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Alexandre Roulois <alexandre@roulois.fr>"]
+channels = ["conda-forge"]
+name = "TALB236B"
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+python = ">=3.14.2,<3.15"
+langdetect = ">=1.0.9,<2"
+chardet = ">=5.2.0,<6"
+ipywidgets = ">=8.1.8,<9"
+jupyterlab = ">=4.5.1,<5"
+jupyterlab-latex = ">=4.4.0,<5"
