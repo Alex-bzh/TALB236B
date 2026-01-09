@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# pixi environments
+.pixi
+
+# MyST build outputs
+_build
+
+# MacOS
+.DS_Store
