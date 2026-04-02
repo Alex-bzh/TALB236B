@@ -4,7 +4,7 @@ channels:
 dependencies:
   - chardet>=5.2.0,<6
   - gensim>=4.4.0,<5
-  - huggingface_hub>=1.8.0,<2
+  - huggingface_hub==0.16.4
   - ipywidgets>=8.1.8,<9
   - jieba>=0.42.1,<0.43
   - jupyter>=1.1.1,<2
@@ -18,7 +18,7 @@ dependencies:
   - pip>=26.0.1,<27
   - python>=3.14.3,<3.15
   - seaborn>=0.13.2,<0.14
-  - sentence-transformers>=2.0.0,<3
+  - sentence-transformers==2.2.2
   - spacy>=3.8.14,<4
   - stanza>=1.11.1,<2
-  - transformers>=5.4.0,<6
+  - transformers==4.33.2
